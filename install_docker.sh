@@ -8,4 +8,4 @@ yes | sudo apt-get install docker-ce docker-ce-cli containerd.io
 yes | sudo apt-get install docker-ce=5:20.10.8~3-0~ubuntu-focal docker-ce-cli=5:20.10.8~3-0~ubuntu-focal containerd.io
 sudo chmod 666 /var/run/docker.sock
 sudo docker run hello-world
-
+docker version

@@ -1,4 +1,5 @@
 #!/bin/sh
-sudo apt-get update
-sudo apt-get -y install python3-pip
+yes | sudo apt-get update
+yes | sudo apt-get -y install python3-pip
 pip3 --version
+pip install wheel
